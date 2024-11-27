@@ -1,0 +1,766 @@
+{
+
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "What's up?",
+        "How are you?",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hey there! 😊 How can I assist you on your fitness journey today?",
+        "Hi! Ask me about workouts, nutrition, or anything fitness-related.",
+        "Hello! I'm here to help you stay healthy and motivated."
+      ]
+    },
+
+
+    {
+      "tag": "weekly_routine_home",
+      "patterns": [
+        "Can you provide a weekly home workout routine?",
+        "What should my weekly exercise plan look like at home?",
+        "Suggest a home-based workout schedule.",
+        "How can I plan a week's workout at home?",
+        "I need a weekly exercise plan without equipment."
+      ],
+      "responses": [
+        "Here's a weekly home workout plan: \nDay 1: Full-body HIIT\nDay 2: Core Strengthening\nDay 3: Rest or Light Stretching\nDay 4: Upper Body Strength\nDay 5: Cardio (Skipping or Running in Place)\nDay 6: Lower Body Workout\nDay 7: Yoga or Active Recovery."
+      ]
+    },
+    {
+      "tag": "weekly_routine_gym",
+      "patterns": [
+        "What does a weekly gym routine look like?",
+        "Can you help me plan a gym workout schedule?",
+        "Suggest a weekly exercise plan for gym training.",
+        "How should I divide my gym sessions for the week?",
+        "I want a weekly gym workout routine. Can you help?"
+      ],
+      "responses": [
+        "Here's a weekly gym routine: \nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest or Light Cardio\nDay 4: Legs and Abs\nDay 5: Shoulders and Arms\nDay 6: Cardio or Circuit Training\nDay 7: Rest or Active Recovery."
+      ]
+    },
+    {
+      "tag": "weekly_routine_strength",
+      "patterns": [
+        "What is a weekly routine for strength training?",
+        "How can I plan my week for strength improvement?",
+        "Suggest a weekly schedule for building strength.",
+        "Can you provide a strength-focused weekly workout?",
+        "How should I train for strength across the week?"
+      ],
+      "responses": [
+        "Weekly strength routine: \nDay 1: Deadlifts and Core\nDay 2: Squats and Lunges\nDay 3: Rest or Light Cardio\nDay 4: Bench Press and Push-ups\nDay 5: Pull-ups and Rows\nDay 6: Powerlifting or Functional Training\nDay 7: Stretching and Mobility Work."
+      ]
+    },
+    {
+      "tag": "weekly_routine_endurance",
+      "patterns": [
+        "What should a weekly endurance routine include?",
+        "How do I plan my week for better stamina?",
+        "Can you help with a weekly plan for endurance?",
+        "What is a good endurance workout schedule for the week?",
+        "Suggest a weekly routine to boost cardiovascular fitness."
+      ],
+      "responses": [
+        "Weekly endurance routine: \nDay 1: 30-minute Jog or Run\nDay 2: Interval Training (HIIT)\nDay 3: Rest or Light Yoga\nDay 4: Long-distance Running or Cycling\nDay 5: Cardio Circuit (Burpees, Jumping Jacks)\nDay 6: Swimming or Rowing\nDay 7: Rest or Active Recovery."
+      ]
+    },
+    {
+      "tag": "weekly_routine_bodybuilding",
+      "patterns": [
+        "How do I plan a bodybuilding workout for the week?",
+        "Can you suggest a weekly bodybuilding routine?",
+        "What does a bodybuilding weekly schedule look like?",
+        "How should I divide my week for muscle building?",
+        "Provide a weekly routine for bodybuilding."
+      ],
+      "responses": [
+        "Bodybuilding weekly routine: \nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest or Light Cardio\nDay 4: Shoulders and Abs\nDay 5: Legs and Glutes\nDay 6: Full-body Workout\nDay 7: Rest or Active Recovery."
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    {
+      "tag": "strength",
+      "patterns": [
+        "How can I improve my strength?",
+        "What exercises are best for strength training?",
+        "Can you guide me on building muscle strength?",
+        "What should I do to get stronger?"
+      ],
+      "responses": [
+        "For building strength, focus on compound movements like deadlifts, squats, and bench presses with heavy weights and lower reps.",
+        "Strength training is best achieved with progressive overload. Would you like me to create a detailed plan for you?"
+      ]
+    },
+    {
+      "tag": "endurance",
+      "patterns": [
+        "How do I increase my stamina?",
+        "What exercises can improve endurance?",
+        "Can you guide me on building cardiovascular endurance?",
+        "I want to work on my overall stamina. Suggestions?",
+        "What should I do to last longer in workouts?"
+      ],
+      "responses": [
+        "Endurance can be improved with consistent cardio activities like running, cycling, or swimming combined with interval training.",
+        "For better stamina, include activities like jogging, circuit training, or high-rep bodyweight exercises in your routine."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "How do I lose weight effectively?",
+        "Can you suggest workouts for weight loss?",
+        "What is the best way to burn fat?",
+        "I want to shed some pounds. Help me!",
+        "What exercises are good for losing weight?"
+      ],
+      "responses": [
+        "For weight loss, combine high-intensity interval training (HIIT) with strength training and maintain a calorie deficit.",
+        "Cardio, strength training, and a balanced diet can help you lose weight effectively. Would you like a sample plan?"
+      ]
+    },
+    {
+      "tag": "weight_gain",
+      "patterns": [
+        "How can I gain weight healthily?",
+        "What exercises help with weight gain?",
+        "I want to build muscle and gain weight. Suggestions?",
+        "What is the best way to bulk up?",
+        "Can you guide me on gaining healthy weight?"
+      ],
+      "responses": [
+        "To gain weight, focus on strength training with compound exercises and ensure you're eating in a calorie surplus.",
+        "Building muscle mass through resistance training and consuming protein-rich meals will help with healthy weight gain."
+      ]
+    },
+    {
+      "tag": "training_from_gym",
+      "patterns": [
+        "What workouts can I do in the gym?",
+        "Can you suggest a gym training routine?",
+        "How should I train if I go to the gym?",
+        "What equipment should I use at the gym?",
+        "Give me a gym-based workout plan."
+      ],
+      "responses": [
+        "At the gym, you can use free weights, machines, and cables to target different muscle groups. Would you like a plan for strength or endurance?",
+        "Gym training allows for a variety of exercises like bench presses, deadlifts, and lat pulldowns. Let me know your goals to customize it."
+      ]
+    },
+    {
+      "tag": "training_from_home",
+      "patterns": [
+        "How can I train at home?",
+        "What are some home workout routines?",
+        "Can you suggest exercises without equipment?",
+        "How do I stay fit while working out at home?",
+        "What bodyweight exercises can I do at home?"
+      ],
+      "responses": [
+        "Home workouts can include push-ups, squats, planks, and burpees. Resistance bands and dumbbells can add variety.",
+        "For training at home, try bodyweight circuits or follow online workout videos tailored to your goals."
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        {
+          "tag": "build_muscle_back",
+          "patterns": [
+            "How can I build muscle on my back?",
+            "What exercises are good for back muscle growth?",
+            "Can you guide me on adding muscle to my back?",
+            "Which workouts help in back muscle development?",
+            "How do I target my back for muscle gain?"
+          ],
+          "responses": [
+            "To build back muscles, focus on exercises like pull-ups, barbell rows, lat pulldowns, and deadlifts. Ensure proper form and progressive overload for optimal growth."
+          ]
+        },
+        {
+          "tag": "build_muscle_chest",
+          "patterns": [
+            "How do I add muscle to my chest?",
+            "What exercises help in chest muscle growth?",
+            "Guide me on building chest muscles.",
+            "How can I target my chest for muscle building?",
+            "What workouts are best for chest muscle development?"
+          ],
+          "responses": [
+            "For chest muscle growth, include bench presses, push-ups, chest flyes, and incline presses in your routine. Adjust angles and weights for variety."
+          ]
+        },
+        {
+          "tag": "build_muscle_arms",
+          "patterns": [
+            "How can I grow my arm muscles?",
+            "What are the best exercises for arm muscle growth?",
+            "Can you help me build muscle in my arms?",
+            "How do I target my arms for muscle building?",
+            "Suggest some workouts for arm muscles."
+          ],
+          "responses": [
+            "Arm muscle growth involves exercises like bicep curls, tricep dips, close-grip bench presses, and hammer curls. Work on both the biceps and triceps for balanced development."
+          ]
+        },
+        {
+          "tag": "build_muscle_biceps",
+          "patterns": [
+            "What are the best exercises for bicep growth?",
+            "How do I build bigger biceps?",
+            "Can you guide me on growing my biceps?",
+            "How can I target my biceps for muscle building?",
+            "What workouts focus on the biceps?"
+          ],
+          "responses": [
+            "For bigger biceps, focus on exercises like barbell curls, hammer curls, concentration curls, and chin-ups. Keep your form strict and progressively increase the weights."
+          ]
+        },
+        {
+          "tag": "build_muscle_triceps",
+          "patterns": [
+            "How do I build muscle in my triceps?",
+            "What exercises are best for triceps growth?",
+            "Can you guide me on adding muscle to my triceps?",
+            "How can I target my triceps for growth?",
+            "What are the best workouts for triceps development?"
+          ],
+          "responses": [
+            "To develop triceps, include exercises like tricep dips, overhead tricep extensions, close-grip bench presses, and tricep pushdowns in your routine."
+          ]
+        },
+        {
+          "tag": "build_muscle_shoulders",
+          "patterns": [
+            "What is the best way to grow shoulder muscles?",
+            "How do I build muscle in my shoulders?",
+            "Can you suggest exercises for shoulder muscle growth?",
+            "How can I target my shoulders for muscle gain?",
+            "What are the best workouts for strong shoulders?"
+          ],
+          "responses": [
+            "For shoulder muscles, include overhead presses, lateral raises, front raises, and reverse flyes in your workout. Don’t forget to work all three deltoid heads for balance."
+          ]
+        },
+        {
+          "tag": "build_muscle_abs",
+          "patterns": [
+            "How do I add muscle to my abs?",
+            "What are the best exercises for ab growth?",
+            "Can you guide me on building stronger abs?",
+            "How can I target my core muscles?",
+            "What workouts are effective for abdominal muscles?"
+          ],
+          "responses": [
+            "To build abs, focus on exercises like planks, hanging leg raises, ab rollouts, and weighted crunches. Combine with a proper diet to reduce fat and make muscles visible."
+          ]
+        },
+        {
+          "tag": "build_muscle_legs",
+          "patterns": [
+            "How can I grow muscles in my legs?",
+            "What are the best exercises for leg development?",
+            "Can you guide me on building leg muscles?",
+            "How do I add muscle to my thighs and calves?",
+            "What workouts target the legs effectively?"
+          ],
+          "responses": [
+            "For leg muscles, include squats, lunges, deadlifts, leg presses, and calf raises in your routine. Use progressive overload and proper form for optimal results."
+          ]
+        },
+        {
+          "tag": "build_muscle_glutes",
+          "patterns": [
+            "How do I grow my glutes?",
+            "What are the best exercises for glute development?",
+            "Can you guide me on building muscle in my glutes?",
+            "How do I target my glutes for muscle gain?",
+            "What workouts focus on the glutes?"
+          ],
+          "responses": [
+            "To grow your glutes, include exercises like hip thrusts, Bulgarian split squats, glute bridges, and cable kickbacks in your routine."
+          ]
+        },
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    {
+      "tag": "push_up_form",
+      "patterns": [
+        "How do I do a proper push-up?",
+        "What is the correct form for push-ups?",
+        "Can you explain how to do push-ups?"
+      ],
+      "responses": [
+        "For push-ups, keep your hands shoulder-width apart, lower your body until your chest is close to the ground, and push back up while keeping your core tight."
+      ]
+    },
+    {
+      "tag": "burpee_form",
+      "patterns": [
+        "What is the correct form for burpees?",
+        "How do I do a proper burpee?",
+        "Can you guide me on burpees?"
+      ],
+      "responses": [
+        "A burpee involves standing, dropping into a squat, kicking your feet back into a push-up position, returning to squat, and jumping up explosively. Want a step-by-step video?"
+      ]
+    },
+    {
+      "tag": "crunch_form",
+      "patterns": [
+        "Can you explain how to do crunches?",
+        "How do I perform crunches properly?",
+        "What is the correct way to do crunches?"
+      ],
+      "responses": [
+        "For crunches, lie on your back with your knees bent, lift your shoulders off the ground using your abs, and lower back down slowly."
+      ]
+    },
+    {
+      "tag": "side_bend_form",
+      "patterns": [
+        "How do I perform side bends?",
+        "What is the proper way to do side bends?",
+        "Can you guide me on side bends?"
+      ],
+      "responses": [
+        "Side bends are done by standing straight, bending sideways at your waist, and keeping your upper body aligned. Do not lean forward or backward."
+      ]
+    },
+    {
+      "tag": "farmers_walk_form",
+      "patterns": [
+        "What is the proper way to do a farmer's walk?",
+        "How do I perform the farmer's walk?",
+        "Can you explain the farmer's walk form?"
+      ],
+      "responses": [
+        "The farmer's walk requires you to hold heavy weights in each hand, walk with your back straight, and engage your core."
+      ]
+    },
+    {
+      "tag": "squat_form",
+      "patterns": [
+        "Can you guide me on squats?",
+        "What is the proper way to do squats?",
+        "How should I perform squats?"
+      ],
+      "responses": [
+        "For squats, keep your feet shoulder-width apart, back straight, and knees tracking over toes. Want a video tutorial link?"
+      ]
+    },
+    {
+      "tag": "leg_raise_form",
+      "patterns": [
+        "How do I perform leg raises?",
+        "What is the correct way to do leg raises?",
+        "Can you guide me on leg raises?"
+      ],
+      "responses": [
+        "Leg raises involve lying on your back and lifting your legs until they form a 90-degree angle with your body, keeping your lower back flat on the ground."
+      ]
+    },
+    {
+      "tag": "pullup_form",
+      "patterns": [
+        "What is the correct form for pull-ups?",
+        "How do I perform pull-ups?",
+        "Can you guide me on pull-ups?"
+      ],
+      "responses": [
+        "Pull-ups require a strong grip on the bar, pulling your chest towards the bar, and lowering yourself slowly."
+      ]
+    },
+    {
+      "tag": "situp_form",
+      "patterns": [
+        "How do I do sit-ups properly?",
+        "What is the correct form for sit-ups?",
+        "Can you explain sit-ups?"
+      ],
+      "responses": [
+        "Sit-ups involve lying on your back with knees bent, placing your hands behind your head or across your chest, and lifting your upper body towards your knees."
+      ]
+    },
+    {
+      "tag": "arm_circle_form",
+      "patterns": [
+        "Can you explain arm circles?",
+        "What is the proper way to do arm circles?",
+        "How should I perform arm circles?"
+      ],
+      "responses": [
+        "For arm circles, extend your arms to the sides and rotate them in small circles, gradually increasing the size of the circles."
+      ]
+    },
+    {
+      "tag": "bicep_curl_form",
+      "patterns": [
+        "What is the proper way to do a bicep curl?",
+        "How do I perform bicep curls?",
+        "Can you explain bicep curls?"
+      ],
+      "responses": [
+        "A bicep curl involves holding a dumbbell, keeping your elbows close to your torso, and lifting the weight towards your shoulders."
+      ]
+    },
+    {
+      "tag": "overhead_press_form",
+      "patterns": [
+        "How should I do an overhead press?",
+        "Can you explain the overhead press form?",
+        "What is the correct way to perform an overhead press?"
+      ],
+      "responses": [
+        "The overhead press requires holding weights at shoulder level, pressing them upwards until your arms are fully extended, and lowering back down slowly."
+      ]
+    },
+    {
+      "tag": "plank_form",
+      "patterns": [
+        "Can you explain the correct plank position?",
+        "What is the proper way to do a plank?",
+        "How should I perform a plank?"
+      ],
+      "responses": [
+        "For a plank, keep your body in a straight line from head to heels, support yourself on your elbows or hands, and engage your core."
+      ]
+    },
+    {
+      "tag": "lunge_form",
+      "patterns": [
+        "How do I perform lunges properly?",
+        "What is the correct way to do lunges?",
+        "Can you guide me on lunges?"
+      ],
+      "responses": [
+        "For lunges, take a step forward, lower your body until your knees form 90-degree angles, and push back up to standing."
+      ]
+    },
+    {
+      "tag": "jump_squat_form",
+      "patterns": [
+        "What is the form for jump squats?",
+        "How do I perform jump squats?",
+        "Can you guide me on jump squats?"
+      ],
+      "responses": [
+        "Jump squats combine a squat with an explosive jump, landing softly back into the squat position."
+      ]
+    },
+    {
+      "tag": "skipping_form",
+      "patterns": [
+        "How should I do skipping properly?",
+        "Can you explain skipping?",
+        "What is the correct way to do skipping?"
+      ],
+      "responses": [
+        "For skipping, use a rope, jump on the balls of your feet, and maintain a consistent rhythm while swinging the rope."
+      ]
+    },
+    {
+      "tag": "tricep_dip_form",
+      "patterns": [
+        "Can you guide me on tricep dips?",
+        "What is the correct way to do tricep dips?",
+        "How do I perform tricep dips?"
+      ],
+      "responses": [
+        "Tricep dips are done by lowering and raising your body using your arms on a stable surface, keeping your back close to the surface."
+      ]
+    },
+    {
+      "tag": "bicycle_crunch_form",
+      "patterns": [
+        "How do I do bicycle crunches?",
+        "Can you explain bicycle crunches?",
+        "What is the proper way to perform bicycle crunches?"
+      ],
+      "responses": [
+        "Bicycle crunches involve lying on your back, alternating elbow-to-knee touches while keeping your core engaged."
+      ]
+    },
+    {
+      "tag": "jumping_jack_form",
+      "patterns": [
+        "What is the correct way to do jumping jacks?",
+        "How should I perform jumping jacks?",
+        "Can you guide me on jumping jacks?"
+      ],
+      "responses": [
+        "Jumping jacks involve jumping while spreading your legs and arms outward, then returning to the starting position."
+      ]
+    },
+    {
+      "tag": "running_form",
+      "patterns": [
+        "What is the proper running form?",
+        "How do I run properly?",
+        "Can you explain running form?"
+      ],
+      "responses": [
+        "For running, maintain an upright posture, keep your strides short, land softly on the balls of your feet, and swing your arms naturally."
+      ]
+    },
+    {
+      "tag": "weekly_routine",
+      "patterns": [
+        "Can you give me a weekly workout routine?",
+        "I need a workout schedule for the week",
+        "Help me plan a weekly fitness routine",
+        "What should I do each day for a week?",
+        "Suggest a weekly workout plan",
+        "Can you create a weekly routine for me?"
+      ],
+      "responses": [
+        "Sure! Here's a general weekly workout plan:\n- Monday: Cardio (running, cycling, or skipping)\n- Tuesday: Strength training (upper body)\n- Wednesday: Yoga or active recovery\n- Thursday: Strength training (lower body)\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light stretching. \nWould you like me to adjust this for your fitness level or goals?",
+        "Here’s a sample weekly plan:\n- Monday: Full-body strength\n- Tuesday: Cardio or endurance training\n- Wednesday: Core and flexibility exercises\n- Thursday: Strength training (upper body focus)\n- Friday: HIIT or speed training\n- Saturday: Fun activity (sports, dance, etc.)\n- Sunday: Rest or active recovery. \nDo you prefer gym or home workouts?",
+        "Here’s a suggested plan for the week:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Cardio (cycling or running)\n- Wednesday: Pull day (back, biceps, rear delts)\n- Thursday: Active recovery (yoga or walking)\n- Friday: Leg day (squats, lunges, etc.)\n- Saturday: Core and flexibility training\n- Sunday: Rest day. \nWould you like to focus on strength, cardio, or flexibility?"
+      ]
+    },
+    {
+      "tag": "weekly_routine_personalized",
+      "patterns": [
+        "Adjust the routine for weight loss",
+        "Can you make it for muscle building?",
+        "I prefer gym workouts",
+        "I only have dumbbells at home",
+        "I am a beginner, help me with a weekly plan",
+        "I am intermediate, customize the schedule for me",
+        "I am advanced, give me a challenging routine"
+      ],
+      "responses": [
+        "For weight loss, I recommend:\n- Monday: HIIT cardio\n- Tuesday: Strength training (upper body)\n- Wednesday: Active recovery (walking or yoga)\n- Thursday: Lower body workout\n- Friday: HIIT or functional training\n- Saturday: Full-body workout\n- Sunday: Rest or light activity. Would you like me to include meal suggestions?",
+        "For muscle building:\n- Monday: Push day (chest, shoulders, triceps)\n- Tuesday: Pull day (back, biceps)\n- Wednesday: Leg day (squats, lunges, deadlifts)\n- Thursday: Rest\n- Friday: Upper body strength\n- Saturday: Core and flexibility exercises\n- Sunday: Rest. Do you prefer higher volume or heavier weights?",
+        "For a home-based routine with dumbbells:\n- Monday: Full-body dumbbell workout\n- Tuesday: Cardio (skipping, running, or cycling)\n- Wednesday: Core and stretching\n- Thursday: Dumbbell strength training (upper body focus)\n- Friday: HIIT (using body weight or light weights)\n- Saturday: Lower body strength (lunges, squats)\n- Sunday: Rest or yoga. Need exercise specifics?"
+      ]
+    },
+    {
+      "tag": "weekly_routine_followup",
+      "patterns": [
+        "Can you add rest days?",
+        "Include yoga in the schedule",
+        "Focus more on cardio",
+        "I want balanced training",
+        "How about flexibility exercises?",
+        "Add sports activities"
+      ],
+      "responses": [
+        "Here’s an updated plan with more cardio:\n- Monday: Cardio (running or cycling)\n- Tuesday: Strength training\n- Wednesday: Cardio again (HIIT or endurance)\n- Thursday: Yoga or flexibility training\n- Friday: Strength training (full body)\n- Saturday: Sports activity or fun workout\n- Sunday: Rest. Would you like me to provide workout durations?",
+        "If you’d like more focus on flexibility, let’s do this:\n- Monday: Yoga or pilates\n- Tuesday: Cardio\n- Wednesday: Strength training (upper body)\n- Thursday: Stretching or flexibility exercises\n- Friday: Strength training (lower body)\n- Saturday: Active sports or light workout\n- Sunday: Rest. How does that sound?"
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "leg_pain",
+      "patterns": [
+        "I have leg pain, what should I do?",
+        "How can I relieve pain in my legs?",
+        "My legs hurt after exercising, any suggestions?",
+        "What can help with sore legs?",
+        "I feel pain in my legs, can you guide me?"
+      ],
+      "responses": [
+        "For leg pain, consider gentle stretches, applying ice or heat, and resting. If pain persists or worsens, consult a healthcare professional.",
+        "Leg pain can be relieved with proper stretching, hydration, and light massages. If the pain is severe or constant, seeking medical advice is recommended."
+      ]
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "How can I stay motivated?",
+        "Give me motivation tips",
+        "I need help with motivation",
+        "Motivation advice"
+      ],
+      "responses": [
+        "Remember why you started! Break your goals into smaller milestones and celebrate progress. Would you like a motivational quote?",
+        "Tracking your progress can be motivating. Want tips on how to log your workouts?"
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "Can exercise improve mental health?",
+        "What are mental health benefits of fitness?",
+        "Help me understand the link between fitness and mental health",
+        "I feel stressed, can exercise help?"
+      ],
+      "responses": [
+        "Yes! Exercise releases endorphins, improves mood, and reduces stress. Activities like yoga and running are great for mental health. Want a mindfulness tip?",
+        "Regular fitness routines improve sleep and energy levels. Would you like to try a guided meditation?"
+      ]
+    },
+    {
+      "tag": "sleep_and_recovery",
+      "patterns": [
+        "How much sleep do I need?",
+        "Is sleep important for recovery?",
+        "Tell me about sleep and fitness recovery"
+      ],
+      "responses": [
+        "Sleep is critical for muscle repair and overall health. Aim for 7-9 hours a night. Need tips for better sleep?",
+        "Recovery includes proper sleep, hydration, and stretching. Would you like a guide on optimizing recovery?"
+      ]
+    },
+    {
+      "tag": "fitness_goals",
+      "patterns": [
+        "How do I set fitness goals?",
+        "Can you help me set a goal?",
+        "What are realistic fitness goals?",
+        "I want to lose weight, where do I start?"
+      ],
+      "responses": [
+        "Start with SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound. For example, aim to lose 1kg in 2 weeks through diet and exercise. Need help planning?",
+        "Setting a goal depends on your current fitness level and preferences. Let’s create one step-by-step!"
+      ]
+    },
+    {
+      "tag": "time_efficient_workouts",
+      "patterns": [
+        "I don't have much time to work out",
+        "Can you suggest quick workouts?",
+        "What are short workouts for busy people?",
+        "I need a 10-minute workout"
+      ],
+      "responses": [
+        "Try a 10-minute HIIT session! For example: 30 seconds of jumping jacks, squats, and push-ups with 10-second rests. Want the full guide?",
+        "Short workouts can be effective! Would you like a plan for strength or cardio?"
+      ]
+    },
+    {
+      "tag": "fitness_special_needs",
+      "patterns": [
+        "Can you suggest prenatal exercises?",
+        "What are good exercises for seniors?",
+        "Is there a workout for back pain?",
+        "I have knee pain, what should I do?"
+      ],
+      "responses": [
+        "For prenatal fitness, gentle yoga and walking are great. Always consult your doctor first! Want tailored tips?",
+        "For seniors, focus on low-impact exercises like swimming or resistance band training. Would you like a detailed plan?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you later",
+        "I'm done"
+      ],
+      "responses": [
+        "See you later! Keep up the great work with your fitness goals! 😊",
+        "Goodbye! Come back anytime for more tips and guidance."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Do you know any jokes?",
+        "Make me laugh!"
+      ],
+      "responses": [
+        "Why did the treadmill bring a date to the gym? It wanted to go the extra mile!",
+        "What’s a fitness coach’s favorite game? Follow the leaderboards!"
+      ]
+    }
+  ]
+}
